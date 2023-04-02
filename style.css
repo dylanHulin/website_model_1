@@ -8,5 +8,32 @@
   display: flex;
   flex-direction: column;
   flex: 1;
- align-items: center;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  flex: 1;
+  /*justify-content: center;*/
+}
+
+.first_section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  height: 100vh;
+}
+
+.first_section div {
+  border: 2px solid red;
+  flex: 1;
+}
+
+.first_section img {
+  height: 100%;
+  width: auto;
+}
+
+.second_section {
+
 }
